@@ -1,0 +1,12 @@
+body {
+    color: grey;;
+}
+#the-div {
+    width: 400px;
+    height: 500px;
+    background-color: navy;
+    color: white;
+}
+#the-text {
+    font-size: 1rem;
+}
