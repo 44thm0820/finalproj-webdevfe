@@ -7,7 +7,7 @@ const showDepartures = () => {
 
         //Presents list of each train and its times departing
 
-        axios.get(`http://api.bart.gov/api/etd.aspx?cmd=etd&orig=${stationAbbr}&key=MW9S-E7SL-26DU-VV8V&json=y`).then(result => {            
+        axios.get(`https://api.bart.gov/api/etd.aspx?cmd=etd&orig=${stationAbbr}&key=MW9S-E7SL-26DU-VV8V&json=y`).then(result => {            
             let data = result.data.root.station[0].etd;
             console.log(data);
             while (theList.hasChildNodes()) {
