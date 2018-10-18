@@ -2,8 +2,8 @@ body {
     color: grey;;
 }
 #the-div {
-    width: 400px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     background-color: navy;
     color: white;
 }
